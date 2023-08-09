@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Catamaran", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.singapore {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ahm {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.lite {
+  color: #f7f7f7;
+}
+.cover {
+  background-image: url(../src/components/images/handyman-in-singapore.jpg);
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
